@@ -65,9 +65,30 @@ width: 50px;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+   
 
 
 }
 .footer-abba img:hover{
-    box-shadow: 0px 0px 20px rgb(255, 238, 0);
+    box-shadow: 0px 0px 20px rgb(25, 0, 255);
+}
+
+
+.footer-nav-father{
+    background-color: rgba(200, 255, 0, 0.877);
+    margin-top: 20px;
+    padding-top:5px ;
+    border-radius: 10px;
+    padding-right:30px;
+    /* position: fixed;
+    bottom:10px; */
+}
+body{
+    position: relative;
+}
+footer{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
 }
